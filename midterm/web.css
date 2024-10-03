@@ -1,0 +1,190 @@
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b 50%,
+        #504138 0%,
+        #504138 50%
+    );
+    overflow-x: hidden;
+}
+
+.air {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b 50%,
+        #504138 0%,
+        #504138 50%
+    );
+}
+
+.collapse {
+    margin-left: auto; /* Use auto margin for better alignment */
+}
+
+/* Adjust logo size for responsiveness */
+.logo {
+    height: 10vh; /* Use viewport height */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 5%; /* Use relative units */
+    margin-top: 1px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Set a max width for larger screens */
+    margin: 120px auto 0; /* Center the container */
+    border-radius: 20px;
+    background: linear-gradient(
+        to right,
+        #d3c2a6 0%,
+        #d3c2a6 50%,
+        #5a493f 0%,
+        #5a493f 50%
+    );
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; /* Stack items vertically */
+}
+
+.div1 {
+    width: 80%; /* Use relative units */
+    max-width: 400px; /* Limit max size */
+    height: auto; /* Use auto height */
+    background-color: #d3c2a6;
+    border-radius: 50%;
+}
+
+.shoe1 {
+    width: 80%; /* Use relative units */
+    max-width: 600px; /* Limit max size */
+    height: auto; /* Use auto height */
+    border-radius: 25px; 
+    margin-top: -10px;
+    transform: rotate(-15deg);
+}
+
+.des {
+    width: 80%; /* Use relative units */
+    max-width: 645px; /* Limit max size */
+}
+
+.desc {
+    margin-top: -150px;
+    margin-left: 5%; /* Use relative units */
+}
+
+.descs, .descs1 {
+    font-size: large; /* Keep font size responsive */
+    margin-left: 15px;
+}
+
+.btn {
+    color: #eadbc0;
+    background-color: #504138;
+    margin-top: 20px; /* Use margin instead of position */
+}
+
+.btn:hover {
+    color: #504138;
+    border: solid #504138;
+}
+
+.prod {
+    margin-top: 200px;
+    height: auto; /* Use auto height */
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Center the header */
+    border: solid;
+    width: auto; /* Use auto width */
+}
+
+.row {
+    margin: 50px auto; /* Center rows */
+}
+
+.car {
+    background-color: transparent;
+    border: transparent;
+}
+
+.cards, .cardss, .cardss1 {
+    margin-top: 0; /* Remove negative margins */
+}
+
+@font-face {
+    font-family: Poppins-Boldx;
+    src: url('Poppins-Bold.ttf');
+}
+
+#Reviews {
+    font-family: Poppins-Bold;
+}
+
+.com {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.rows1, .rows2 {
+    margin-left: 0; /* Reset for mobile */
+}
+
+.checked {
+    color: orange;
+}
+
+.foot {
+    padding: 1px;
+    margin-top: 50px;
+}
+
+.last {
+    margin-top: -35px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .collapse {
+        margin-left: 0; /* Reset for smaller screens */
+    }
+
+    .logo {
+        height: 8vh; /* Adjust size for smaller screens */
+    }
+
+    .container {
+        margin-top: 80px; /* Adjust margin */
+    }
+
+    .div1, .shoe1, .des {
+        width: 90%; /* Make items wider on small screens */
+    }
+
+    .btn {
+        width: 100%; /* Make button full width */
+        margin-top: 10px; /* Adjust margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .desc, .descs, .descs1 {
+        font-size: medium; /* Adjust font size for small screens */
+    }
+}

@@ -1,0 +1,242 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b  50%,
+        #504138 0%,
+        #504138 50%
+    );
+    overflow-x: hidden;
+}
+.air {
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background: linear-gradient(
+        to right,
+        #b1a38b 0%,
+        #b1a38b  50%,
+        #504138 0%,
+        #504138 50%
+    );
+}
+.collapse{
+    margin-left: 950px;
+}
+
+.logo {
+    height: 60px; 
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.cap{
+    margin-left: 10px;
+    top: 400px;
+}
+.div1{
+    width: 700px;
+    height: 600px;
+    background-color:#d3c2a6;
+    position: absolute;
+    right: 405px;
+    top: 100px;
+    border-radius: 50%;
+}
+.desc{
+    text-align: center;
+    margin-top: 100px;
+}
+.descs{
+    margin-left: 40px;
+}
+.buy{
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.buys{
+    margin-top: 250px;
+}
+.shoe{
+    margin-top: -40px;
+    margin-left: 560px;
+
+}
+.btn{
+    color: #eadbc0;
+    background-color: #504138;
+    margin-top: 500px;
+}
+.shoe1 {
+    width: 600px;    
+    height: auto;
+    border-radius: 25px; 
+    margin-top: -10px;
+    position: absolute;
+    right: 150px;
+    transform: rotate(-15deg);
+}
+
+
+@media (max-width: 575px) {
+    .logo, .div1, .shoe1 {
+        font-size: medium;
+    }
+    
+    .collapse{
+        margin-left: 85%;
+    }
+    .logo {
+        height: 60px; 
+        width: 80px;
+        margin-left: 50px;
+        margin-top: 1px;
+    }
+    .shoe{
+        margin-top: 1%;
+        margin-left: 23%;
+        width: 58%;
+    
+    }
+    .shoe1 {
+        width: 90%;    
+        height: auto;
+        border-radius: 25px; 
+        margin-top: -10px;
+        position: absolute;
+        right: 10%;
+        top: 18%;
+        transform: rotate(-15deg);
+
+    }
+    .div1{
+        width: 70%;
+        height: 48%;
+        background-color:#d3c2a6;
+        position: absolute;
+        right: 15%;
+        top: 18%;
+        border-radius: 50%;
+    }
+    .carousel{
+        margin-bottom: 80%;
+    }
+    .desc{
+        left: 50;
+    }
+
+    .btn{
+        color: #eadbc0;
+        background-color: #000000;
+    }
+    .btn:hover{
+        color: #000000;
+        border: solid #000000;
+        font-weight: bold;
+    }
+    .prod{
+        margin-top: 200px;
+        height: 900px;
+    }
+    .h1{
+        margin-top: 15%;
+        margin-left: 30%;
+        border: solid;
+        width: 200px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        border: 0.1px transparent;
+        border-radius: 20px;
+        height: 250%;
+        background: linear-gradient(
+            to right,
+            #d3c2a6 0%,
+            #d3c2a6 50%,
+            #5a493f 0%,
+            #5a493f 50%
+        );
+        margin-top: 120px;
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+    }
+    .c{
+        background-color: transparent;
+        border: transparent;
+        margin-top: -40%;
+    }
+    .ca{
+        background-color: transparent;
+        border: transparent;
+        margin-top: -140px;
+    }
+    .car{
+        background-color: transparent;
+        border: transparent;
+        margin-top: -150px;
+    }
+    .cards{
+        margin-top: -150px;
+    }
+    .cardss{
+        left: 20%;
+        margin-top: -150px;
+    }
+    .cardss1{
+        margin-top: -85px;
+    }
+    @font-face {
+        font-family: Poppins-Boldx;
+        src: url('Poppins-Bold.ttf');
+    }
+    #Reviews{
+        font-family: Poppins-Bold;
+        margin-top: 350%;
+    }
+    .com{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .checked {
+        color: orange;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prod{
+    margin-top: 50%;
+    height: 900px;
+}
+.c{
+    background: transparent;
+    border: transparent;
+}
+.ca{
+    background: transparent;
+    border: transparent;
+}
+.car{
+    background: transparent;
+    border: transparent;
+}
+.cardss1{
+    margin-top: 70px;
+}
